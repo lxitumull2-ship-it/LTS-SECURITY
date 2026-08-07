@@ -35,6 +35,7 @@ app.get("/", (req, res) => {
 });
 
 require("./app/routes/cliente.route")(app);
+require("./app/routes/auth.route")(app);
 // Si agregas más recursos (ej. tutorial), regístralos igual:
 // require("./app/routes/tutorial.route")(app);
 
